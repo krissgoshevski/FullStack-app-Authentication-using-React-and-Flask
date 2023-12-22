@@ -1,0 +1,48 @@
+/* Login.css */
+
+/* login.css */
+
+.login-form {
+    border: 2px solid #3498db;
+    background-color: #ecf0f1;
+    padding: 30px;
+    /* Increased padding for the form */
+    border-radius: 15px;
+}
+
+.login-form label {
+    font-size: 18px;
+    /* Increase label font size */
+}
+
+.login-form input {
+    font-size: 16px;
+    /* Increase input font size */
+    padding: 12px;
+    /* Increase input padding */
+    margin-bottom: 20px;
+    /* Increase space between inputs */
+}
+
+.login-form button {
+    font-size: 16px;
+    /* Increase button font size */
+    padding-left: 10px;
+    /* Increase button padding */
+}
+
+.login-form .link-danger {
+    font-size: 16px;
+    /* Increase link font size */
+}
+
+.log-into {
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.small-checkbox {
+    transform: scale(0.64);
+    margin: 2px;
+}

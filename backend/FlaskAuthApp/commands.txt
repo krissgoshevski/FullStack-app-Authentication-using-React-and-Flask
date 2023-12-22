@@ -1,0 +1,20 @@
+pip install flask
+venv/Scripts/activate
+$env:FLASK_APP = "main:api" # za defaulten file
+pip install Flask-JWT-Extended # avtentikacija
+pip install flask-cors -- ova ne sam go isntall
+pip install -U Flask-SQLALchemy
+pip install mysqlclient
+pip install Flask-Migrate
+flask db init
+flask db migrate -m "Initial migration"
+flask db upgrade // ke ja kreira tabelata
+pip install Flask-Bcrypt
+pip install Flask-Cors // Cross origin resource sharing , making ajax possible
+
+
+
+
+
+
+

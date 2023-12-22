@@ -1,0 +1,8 @@
+.react-flask-logo {
+    width: 90px;
+    /* Adjust the size as needed */
+    max-height: 50px;
+    /* Add a maximum height if necessary */
+    border-radius: 50%;
+    /* Optional: Apply a border-radius for a circular shape */
+}
