@@ -1,4 +1,4 @@
-SKILLS: MySQL Db, Flask/Python for ackend, ReactJS, Bootstrap, CSS for Frontend 
+SKILLS: MySQL Db, Flask/Python for Backend, ReactJS, Bootstrap, CSS for Frontend 
 
 
 Login, Register, Logout using Flask/Python
