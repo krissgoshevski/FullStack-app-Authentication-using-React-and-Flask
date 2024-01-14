@@ -10,7 +10,7 @@ from flask_cors import CORS
 api = Flask(__name__)
 
 api.config['SECRET_KEY'] = 'secret-key'
-api.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@localhost/flask_auth'
+api.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://'
 api.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(hours=1)
 jwt = JWTManager(api)
 SQLALCHEMY_TRACT_MODIFICATION = False
